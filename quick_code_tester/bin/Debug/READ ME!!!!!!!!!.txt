@@ -1,0 +1,24 @@
+Das Batch File "clear_qct_directory.bat" dient dazu, den Ordner wieder aufzuräumen!
+
+In der Batch "clear_qct_directory.bat" die Wörter "%PFAD%" mit dem Pfad zu diesem Ordner ersetzen!! (batch file öffnen mit rechtsklick -> bearbeiten)
+
+
+bsp.:
+
+del "%PFAD%\*.txt"
+
+zu
+
+del "C:\User\max\Dokumente\quick_code_tester\*.txt"
+
+
+
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+es ist zu empfehlen die batch und die exe in dem Ordner zu lassen bzw einen zu erstellen wenn nicht vorhanden DA DIE BATCH JEGLICHE TXT UND BATCH FILES UNDWIDERRUFLICH LÖSCHT DIE SICH IN DEM SELBEN ORDNER BEFINDEN!!!!!!!
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+wenn QCT läuft und programmiert wird nicht vergessen in CodeBlocks zu kompillieren (gelbes Zahnrad) ansonsten wird der Code nicht geupdated!!!
